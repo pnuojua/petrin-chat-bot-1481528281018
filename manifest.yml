@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: petrin-chat-bot
+  host: petrin-chat-bot
+  disk_quota: 1024M
+  services:
+  - petrin-chat-bot-cloudantNoSQLDB
